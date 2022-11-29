@@ -1,0 +1,12 @@
+.page {
+  font-family: 'Inter', Arial, sans-serif;
+  color: #ffffff;
+  background-color: #2A2C2F;
+  display: grid;
+  grid-template-columns: auto 1184px auto;
+  grid-template-rows: min-content auto min-content;
+  grid-template-areas: 
+  ". header ."
+  ". content ."
+  ". footer .";
+}

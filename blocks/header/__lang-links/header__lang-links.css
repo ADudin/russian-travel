@@ -1,0 +1,5 @@
+.header__lang-links {
+  height: min-content;
+  display: flex;
+  margin-top: 18px;
+}
