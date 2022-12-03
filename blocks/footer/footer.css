@@ -1,3 +1,22 @@
 .footer {
   grid-area: footer;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 64px 0 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 88px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding-top: 92px;
+  }
 }

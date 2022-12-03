@@ -1,7 +1,6 @@
 .header {
   grid-area: header;
   box-sizing: border-box;
-  min-height: 80px;
   display: flex;
   justify-content: space-between;
   padding-top: 16px;
