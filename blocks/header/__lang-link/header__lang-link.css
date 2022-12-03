@@ -2,7 +2,7 @@
   text-align: center;
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.1;
   color: inherit;
   background: none;
@@ -23,4 +23,10 @@
 .header__lang-link:active {
   opacity: .4;
   transition: opacity .3s linear;
+}
+
+@media screen and (min-width: 768px) {
+  .header__lang-link {
+    font-size: 24px;
+  }
 }

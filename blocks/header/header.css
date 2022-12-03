@@ -4,5 +4,11 @@
   min-height: 80px;
   display: flex;
   justify-content: space-between;
-  padding-top: 28px;
+  padding-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding-top: 28px;
+  }
 }

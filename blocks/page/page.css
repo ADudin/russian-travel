@@ -3,10 +3,32 @@
   color: #ffffff;
   background-color: #2A2C2F;
   display: grid;
-  grid-template-columns: auto 1184px auto;
+  grid-template-columns: minmax(16px, 1fr) minmax(288px, 719px) minmax(16px, 1fr);
   grid-template-rows: min-content auto min-content;
   grid-template-areas: 
   ". header ."
-  ". content ."
+  "content content content"
   ". footer .";
 }
+
+@media screen and (min-width: 768px) {
+  .page {
+    grid-template-columns: minmax(24px, 1fr) minmax(720px, 927px) minmax(24px, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .page {
+    grid-template-columns: minmax(48px, 1fr) minmax(928px, 1183px) minmax(48px, 1fr);
+    grid-template-areas: 
+    ". header ."
+    ". content ."
+    ". footer .";
+  }
+}
+
+/* @media screen and (min-width: 1280px) {
+  .page {
+    grid-template-columns: 1fr 1184px 1fr;
+  }
+} */

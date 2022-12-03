@@ -1,5 +1,11 @@
 .header__lang-links {
   height: min-content;
   display: flex;
-  margin-top: 18px;
+  margin-top: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .header__lang-links {
+    margin-top: 18px;
+  }
 }
