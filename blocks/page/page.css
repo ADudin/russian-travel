@@ -19,16 +19,10 @@
 
 @media screen and (min-width: 1024px) {
   .page {
-    grid-template-columns: minmax(48px, 1fr) minmax(928px, 1183px) minmax(48px, 1fr);
+    grid-template-columns: minmax(48px, 1fr) minmax(928px, 1184px) minmax(48px, 1fr);
     grid-template-areas: 
     ". header ."
     ". content ."
     ". footer .";
   }
 }
-
-/* @media screen and (min-width: 1280px) {
-  .page {
-    grid-template-columns: 1fr 1184px 1fr;
-  }
-} */
