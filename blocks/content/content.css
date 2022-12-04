@@ -15,11 +15,11 @@
   .content {
     grid-template-columns: 1fr minmax(720px, 928px) 1fr;
     grid-template-areas: 
-    ". lead ."
-    ". intro ."
-    ". photo-grid ."
-    ". places ."
-    "cover cover cover";
+      ". lead ."
+     ". intro ."
+      ". photo-grid ."
+      ". places ."
+      "cover cover cover";
     row-gap: 88px;
   }
 }
@@ -35,10 +35,10 @@
   .content {
     grid-template-columns: 1fr 100px 984px 100px 1fr;
     grid-template-areas: 
-    ". . lead . ."
-    ". . intro . ."
-    ". photo-grid photo-grid photo-grid ."
-    ". . places . ."
-    ". cover cover cover .";
+      ". . lead . ."
+      ". . intro . ."
+      ". photo-grid photo-grid photo-grid ."
+      ". . places . ."
+      ". cover cover cover .";
   }
 }

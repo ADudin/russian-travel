@@ -1,0 +1,4 @@
+.photo-grid {
+  grid-area: photo-grid;
+  justify-self: center;
+}
