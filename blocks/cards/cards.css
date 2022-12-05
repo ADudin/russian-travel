@@ -1,0 +1,4 @@
+.cards {
+  grid-area: cards;
+  justify-self: center;
+}

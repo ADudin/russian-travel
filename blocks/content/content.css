@@ -6,7 +6,7 @@
     "lead lead lead"
     ". intro ."
     ". photo-grid ."
-    ". places ."
+    ". cards ."
     "cover cover cover";
     row-gap: 64px;
 }
@@ -18,7 +18,7 @@
       ". lead ."
      ". intro ."
       ". photo-grid ."
-      ". places ."
+      ". cards ."
       "cover cover cover";
     row-gap: 88px;
   }
@@ -38,7 +38,7 @@
       ". . lead . ."
       ". . intro . ."
       ". photo-grid photo-grid photo-grid ."
-      ". . places . ."
+      ". . cards . ."
       ". cover cover cover .";
   }
 }
