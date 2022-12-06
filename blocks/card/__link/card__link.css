@@ -1,0 +1,21 @@
+.card__link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  text-decoration: underline;
+  color: inherit;
+}
+
+.card__link:visited {
+  color: inherit;
+}
+
+.card__link:hover {
+  opacity: .8;
+  transition: opacity .3s linear;
+}
+
+.card__link:active {
+  opacity: .4;
+  transition: opacity .3s linear;
+}
