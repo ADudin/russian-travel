@@ -1,0 +1,52 @@
+.cover__image {
+  width: 100%;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  background-image: url('../../../images/cover/vagony_size_mobile.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  padding-bottom: 62.5%;
+}
+
+@media (min-resolution: 2dppx) {
+  .cover__image {
+    background-image: url('../../../images/cover/vagony_size_mobile@2x.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cover__image {
+    background-image: url('../../../images/cover/vagony_size_tablet.jpg');
+  }
+
+  @media (min-resolution: 2dppx) {
+    .cover__image {
+      background-image: url('../../../images/cover/vagony_size_tablet@2x.jpg');
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__image {
+    background-image: url('../../../images/cover/vagony_size_laptop.jpg');
+  }
+
+  @media (min-resolution: 2dppx) {
+    .cover__image {
+      background-image: url('../../../images/cover/vagony_size_laptop@2x.jpg');
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__image {
+    background-image: url('../../../images/cover/vagony_size_desktop.jpg');
+  }
+
+  @media (min-resolution: 2dppx) {
+    .cover__image {
+      background-image: url('../../../images/cover/vagony_size_desktop@2x.jpg');
+    }
+  }
+}
