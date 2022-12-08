@@ -9,6 +9,7 @@
     '. header .'
     'content content content'
     '. footer .';
+  overflow-x: hidden;
 }
 
 @media screen and (min-width: 768px) {
@@ -20,10 +21,6 @@
 @media screen and (min-width: 1024px) {
   .page {
     grid-template-columns: minmax(48px, 1fr) minmax(928px, 1184px) minmax(48px, 1fr);
-    grid-template-areas: 
-      '. header .'
-      'content content content'
-      '. footer .';
   }
 }
 
@@ -33,5 +30,6 @@
       '. header .'
       '. content .'
       '. footer .';
+    overflow-x: scroll;
   }
 }

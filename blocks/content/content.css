@@ -16,7 +16,7 @@
     grid-template-columns: 1fr minmax(720px, 928px) 1fr;
     grid-template-areas: 
       '. lead .'
-     '. intro .'
+      '. intro .'
       '. photo-grid .'
       '. cards .'
       'cover cover cover';
