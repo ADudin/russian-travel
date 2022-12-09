@@ -24,7 +24,15 @@
     <section class="lead">
       <h1 class="lead__title">Путешествия<br> по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках<br> новостей, а&nbsp;здесь.</p>
-      <div class="lead__image"></div>
+      <div class="lead__image-wrapper">
+        <img 
+          class="lead__image lead__image_position_back" 
+          src="./images/lead/lead__image_size_desktop.jpg"  
+          alt="Человек, лежащий на полке перед окном в вагоне поезда"
+          srcset="./images/lead/lead__image_size_desktop.jpg 1x, ./images/lead/lead__image_size_desktop@2x.jpg 2x"
+        >
+        <img class="lead__image lead__image_position_front" src="./images/lead/map.svg" alt="Изображение импровизированной карты в виде кривой линии с точками - названиями городов России">
+      </div>
       <p class="lead__caption">ваша полка — верхняя</p>
     </section>
 
