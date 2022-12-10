@@ -6,10 +6,6 @@
   color: inherit;
 }
 
-.footer__link:not(.footer__link:last-of-type) {
-  margin-bottom: 32px;
-}
-
 .footer__link:visited {
   color: inherit;
 }
@@ -28,9 +24,5 @@
   .footer__link {
     font-size: 16px;
     line-height: 1.1;
-  }
-
-  .footer__link:not(.footer__link:last-of-type) {
-    margin: 0 18px 0 0;
   }
 }
