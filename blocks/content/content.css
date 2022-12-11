@@ -1,26 +1,32 @@
 .content {
   grid-area: content;
   display: grid;
-  grid-template-columns: 16px minmax(288px, 928px) 16px;
+  grid-template-columns: 16px minmax(288px, 767px) 16px;
   grid-template-areas: 
-    'lead lead lead'
-    '. intro .'
-    '. photo-grid .'
-    '. cards .'
-    'cover cover cover';
-    row-gap: 64px;
+    "lead lead lead"
+    ". intro ."
+    "photo-grid photo-grid photo-grid"
+    ". cards ."
+    "cover cover cover";
+  row-gap: 64px;
 }
 
 @media screen and (min-width: 768px) {
   .content {
-    grid-template-columns: 1fr minmax(720px, 928px) 1fr;
+    grid-template-columns: 24px 1fr 24px;
     grid-template-areas: 
-      '. lead .'
-      '. intro .'
-      '. photo-grid .'
-      '. cards .'
-      'cover cover cover';
+      ". lead ."
+      ". intro ."
+      ". photo-grid ."
+      ". cards ."
+      "cover cover cover";
     row-gap: 88px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content {
+    grid-template-columns: 48px 1fr 48px;
   }
 }
 
@@ -28,10 +34,10 @@
   .content {
     grid-template-columns: 1fr 100px 984px 100px 1fr;
     grid-template-areas: 
-      '. . lead . .'
-      '. . intro . .'
-      '. photo-grid photo-grid photo-grid .'
-      '. . cards . .'
-      '. cover cover cover .';
+      ". . lead . ."
+      ". . intro . ."
+      ". photo-grid photo-grid photo-grid ."
+      ". . cards . ."
+      ". cover cover cover .";
   }
 }
