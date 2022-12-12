@@ -6,7 +6,7 @@
     "lead lead lead"
     ". intro ."
     "photo-grid photo-grid photo-grid"
-    ". cards ."
+    "cards cards cards"
     "cover cover cover";
   row-gap: 64px;
 }
@@ -15,7 +15,7 @@
   .content {
     grid-template-columns: 24px 1fr 24px;
     grid-template-areas: 
-      ". lead ."
+      "lead lead lead"
       ". intro ."
       ". photo-grid ."
       ". cards ."
@@ -27,6 +27,12 @@
 @media screen and (min-width: 1024px) {
   .content {
     grid-template-columns: 48px 1fr 48px;
+    grid-template-areas: 
+      ". lead ."
+      ". intro ."
+      ". photo-grid ."
+      ". cards ."
+      "cover cover cover";
   }
 }
 

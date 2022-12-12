@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   row-gap: 12px;
-  padding: 0;
+  padding: 0 16px;
   margin: 0 auto;
 }
 
@@ -12,6 +12,7 @@
   .photo-grid__image-list {
     max-width: 720px;
     gap: 16px;
+    padding: 0;
   }
 }
 
